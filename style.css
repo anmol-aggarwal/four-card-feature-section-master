@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+}
+
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  padding-bottom:10px ;
+  color: hsl(234, 12%, 34%);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+p {
+  display: inline-block;
+}
+
+.upper {
+  flex: 1;
+  width: 50%;
+  padding: 40px 0 0 150px;
+  font-size: 1.5rem;
+}
+
+.top {
+  font-weight: 200;
+  font-size: 2rem;
+  color: hsl(229, 6%, 66%);
+  position: relative;
+  left: 50px;
+}
+
+.tech {
+  font-weight: 600;
+  font-size: 2rem;
+  color: hsl(234, 12%, 34%);
+  position: relative;
+  left: 55px;
+}
+
+.content {
+  font-weight: 200;
+  font-size: 1rem;
+  color: hsl(229, 6%, 66%);
+}
+
+.extra{
+  position: relative;
+  left: 70px;
+  bottom: 10px;
+}
+
+.lower {
+  flex: 3;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(4,1fr);
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  margin-top: 50px;
+  width: 75%;
+  position: relative;
+  bottom: 20px;
+  right: 20px;
+}
+
+.lower-content {
+  padding-bottom: 40px;
+  font-size: 0.8rem;
+  color: hsl(229, 6%, 66%);
+}
+
+img {
+  position: relative;
+  left: 200px;
+}
+
+.box-1 {
+  padding: 20px 30px;
+  grid-row: 2/4;
+  border-top: solid hsl(180, 62%, 55%);
+  background-color: white;
+  box-shadow: 0 10px 40px -32px;
+  border-radius: 0.4rem;
+}
+
+.box-2 {
+  padding: 20px 30px;
+  grid-column: 2/3;
+  grid-row: 1/3;
+  background-color: white;
+  border-top: solid hsl(0, 78%, 62%);
+  box-shadow: 0 10px 40px -32px;
+  border-radius: 0.4rem;
+}
+
+.box-3 {
+  padding: 20px 30px;
+  grid-column: 2/3;
+  grid-row: 3/5;
+  background-color: white;
+  border-top: solid hsl(34, 97%, 64%);
+  box-shadow: 0 10px 40px -32px;
+  border-radius: 0.4rem;
+}
+
+.box-4 {
+  padding: 20px 30px;
+  grid-column: 3/4;
+  grid-row: 2/4;
+  background-color: white;
+  border-top: solid hsl(212, 86%, 64%);
+  box-shadow: 0 10px 40px -32px;
+  border-radius: 0.4rem;
+}
